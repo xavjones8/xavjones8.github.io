@@ -77,7 +77,7 @@ body{
 button{
 	margin-top:2.5vw;
 	width:110%;
-	height:8vh;
+	height:45px;
 	color:white;
 	background: #000000;
 	border-radius:5px;
@@ -105,14 +105,21 @@ button:hover{
   color: white;
    margin-right:50px;
 }
-@media (max-width: 590px){
+@media (max-width: 630px){
 	#hero{
-		width:100%;
+		width:100vw;
 		height: auto;
 	}
-	#socials{
-		flex-direction: column;
-		margin-right:0px;
-		margin-bottom:100px;
+}
+@media(max-width:411px){
+	.header{
+		font-size:15vw;
+	}
+	#subtext{
+		font-size:10vw;	
+	}
+	i{
+		width:1%;
 	}
 }
+	
