@@ -58,7 +58,7 @@ body{
 	bottom:0;
 }
 #subtext{
-	font-size:2.5vw;
+	font-size:45px;
 	margin-top:-2.5vw;
 	display:flex;
 	flex-direction:column;
@@ -71,9 +71,10 @@ body{
 	font-family: omnes-pro, sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size:5vw;
+	font-size:92px;
 	text-align: center;
 }
+
 button{
 	margin-top:2.5vw;
 	width:110%;
@@ -105,13 +106,11 @@ button:hover{
   color: white;
    margin-right:50px;
 }
-@media (max-width: 630px){
+@media (max-width: 650px){
 	#hero{
 		width:100vw;
 		height: auto;
 	}
-}
-@media(max-width:411px){
 	.header{
 		font-size:15vw;
 	}
@@ -121,5 +120,8 @@ button:hover{
 	i{
 		width:1%;
 	}
+}
+@media(max-width:411px){
+	
 }
 	
