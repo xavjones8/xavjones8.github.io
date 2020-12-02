@@ -86,9 +86,12 @@ li{
     #left-title-button, #middle-arrow-up,#middle-arrow-down{
         display:none;
     }
+    .header{
+        display: none;
+    }
     section{
         width: 100%;
-        height:100vh;
+        height:auto;
         display: flex;
         flex-direction: column;
         margin:10px;
@@ -117,16 +120,16 @@ li{
         margin-top: 0px;
     }
     h1{
-        font-size: 7rem;
+        font-size: 6rem;
     }
     h2{
-        font-size:5.5rem;
+        font-size:4.5rem;
     }
     h3{
-        font-size: 5rem;
+        font-size: 4rem;
     }
     p,li{
-        font-size: 4.5rem;
+        font-size: 3.5rem;
     }
 }
 
