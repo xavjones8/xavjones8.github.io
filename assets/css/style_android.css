@@ -2,9 +2,7 @@ body{
     background: white;
    
 }
-nav li{
-    list-style: none;
-}
+
 @media (min-width:1200px){
     section{
     width: 100%;
@@ -75,6 +73,9 @@ h3{
 #middle-arrow-down{
     margin-top: 3rem;
 }
+li{
+    list-style: circle;
+}
 }
 @media (max-width:1199px){
     body{
@@ -117,16 +118,16 @@ h3{
         margin-top: 0px;
     }
     h1{
-        font-size: 6rem;
+        font-size: 5rem;
     }
     h2{
-        font-size:4.5rem;
+        font-size:3.5rem;
     }
     h3{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     p,li{
-        font-size: 3.5rem;
+        font-size: 1.2rem;
     }
    
 }
