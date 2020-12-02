@@ -55,7 +55,7 @@ nav li{
     margin-bottom: 10px;
     height: auto;
     border-radius: 25px;
-    box-shadow:1px 1px 20px;
+    box-shadow: 0 20px 25px rgba(0,0,0,.15);
 }
 .left-title{
     margin-bottom: 0px;
