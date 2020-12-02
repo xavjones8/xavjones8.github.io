@@ -75,9 +75,6 @@ h3{
 #middle-arrow-down{
     margin-top: 3rem;
 }
-li{
-    list-style: circle;
-}
 }
 @media (max-width:1199px){
     body{
@@ -131,5 +128,6 @@ li{
     p,li{
         font-size: 3.5rem;
     }
+   
 }
 
