@@ -217,7 +217,7 @@ img{
   position: absolute;
   right: 5px;
   bottom: 5px;
-  max-width: 200px;
+  width: 30rem;
 }
 
 /*BUTTONS*/
@@ -439,4 +439,9 @@ img{
   .home__img{
     right: 10%;
   }
+}
+@media screen and (max-width:1000px){
+      .home__img{
+        max-width: 295px;
+      }
 }
