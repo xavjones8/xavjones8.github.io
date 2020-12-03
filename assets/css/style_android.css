@@ -93,7 +93,6 @@ nav li{
         height:auto;
         display: flex;
         flex-direction: column;
-        padding:20px;
         margin-bottom: 4rem;
     }
     .middle{
@@ -155,4 +154,5 @@ nav li{
         color: black;
          right: 0;
     }
+   
 }
