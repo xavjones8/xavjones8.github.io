@@ -444,4 +444,7 @@ img{
       .home__img{
         max-width: 295px;
       }
+      .nav__toggle{
+        display: initial;
+      }
 }
